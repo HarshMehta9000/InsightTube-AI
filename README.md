@@ -8,7 +8,28 @@
 
 Semantic search and AI analysis over YouTube data. Pull videos by query or channel, embed the metadata, and ask natural-language questions about what's there.
 
-A keyword search catches what people said. A semantic search catches what people meant. The gap is where this project lives.
+A keyword search catches what people said. A semantic search catches what they meant. The gap is where this project lives.
+
+## 🎬 Interactive Landing Page
+
+This repo ships with an animated marketing site (Next.js + React Three Fiber) in [`/landing`](./landing) that visualises the entire pipeline — semantic search, the data pipeline, and the vector space. Preview it right here, no click needed:
+
+![InsightTube AI — full landing page](./docs/landing/fullpage-light.png)
+
+| Hero — search by meaning | Live pipeline |
+|:---:|:---:|
+| ![Hero](./docs/landing/hero.gif) | ![Pipeline](./docs/landing/pipeline.gif) |
+
+| Drop-in videos → chat | Semantic search demo |
+|:---:|:---:|
+| ![Knowledge base demo](./docs/landing/kb-demo.gif) | ![Semantic search demo](./docs/landing/search-demo.gif) |
+
+**Vector space:** every transcript becomes a point in high-dimensional space; a query drops in and pulls its nearest neighbours — that's semantic search, visualised in 3D.
+
+![Vector space 3D](./docs/landing/vector3d.png)
+
+> 🌐 **Live site:** _(deployment link added after design approval)_ · light/dark mode · fully responsive.
+> Run locally: `cd landing && npm install && npm run dev` → http://localhost:3000
 
 ## What it does
 
