@@ -14,8 +14,6 @@ A keyword search catches what people said. A semantic search catches what they m
 
 This repo ships with an animated marketing site (Next.js + React Three Fiber) in [`/landing`](./landing) that visualises the entire pipeline — semantic search, the data pipeline, and the vector space. Preview it right here, no click needed:
 
-![InsightTube AI — full landing page](./docs/landing/fullpage-light.png)
-
 | Hero — search by meaning | Live pipeline |
 |:---:|:---:|
 | ![Hero](./docs/landing/hero.gif) | ![Pipeline](./docs/landing/pipeline.gif) |
@@ -27,6 +25,10 @@ This repo ships with an animated marketing site (Next.js + React Three Fiber) in
 **Vector space:** every transcript becomes a point in high-dimensional space; a query drops in and pulls its nearest neighbours — that's semantic search, visualised in 3D.
 
 ![Vector space 3D](./docs/landing/vector3d.png)
+
+**Full page (light mode):**
+
+![InsightTube AI — full landing page](./docs/landing/fullpage-light.png)
 
 > 🌐 **Live site:** https://insighttube-ai.vercel.app · light/dark mode · fully responsive.
 > Run locally: `cd landing && npm install && npm run dev` → http://localhost:3000
