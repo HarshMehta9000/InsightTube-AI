@@ -28,7 +28,7 @@ This repo ships with an animated marketing site (Next.js + React Three Fiber) in
 
 ![Vector space 3D](./docs/landing/vector3d.png)
 
-> 🌐 **Live site:** _(deployment link added after design approval)_ · light/dark mode · fully responsive.
+> 🌐 **Live site:** https://insighttube-ai.vercel.app · light/dark mode · fully responsive.
 > Run locally: `cd landing && npm install && npm run dev` → http://localhost:3000
 
 ## What it does
